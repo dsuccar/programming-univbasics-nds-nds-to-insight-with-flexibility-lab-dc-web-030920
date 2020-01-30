@@ -119,7 +119,7 @@ def movies_with_directors_set(source)
     director_movies =  dir_info_hash[:movies]
     answer << movies_with_director_key(director_name,director_movies)
     i += 1
-  }
+end
 
    answer
 end
